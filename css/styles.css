@@ -1,0 +1,208 @@
+:root {
+    --web: #4d5ae5;
+    --studio: #2e2f42;
+    --studiolist: #6569c0;
+    --add: #434455;
+    --bodybc: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    color: #434455;
+    background-color: var(--bodybc);
+}
+
+/*HEADER*/
+.liststyle {
+    list-style: none;
+}
+
+/*Logo*/
+.webstudio {
+    font-family: "Raleway", sans-serif;
+    font-weight:800;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--web);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.studiocolor {
+    color: #2e2f42;
+}
+
+/*Header Elements*/
+
+.headerstudio {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.list {
+    list-style-type:none;
+}
+
+.headerstudio:hover {
+        color: #404bbf;
+}
+
+.headerstudio:focus {
+        color: #404bbf;
+}
+
+/*Address*/
+.adstyle {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.concolor {color:#434455;}
+.concolor:hover {color:#404bbf}
+.concolor:focus {color:#404bbf}
+
+
+/*Sections*/
+
+/*1st Section*/
+
+/*Hero*/
+.hero {
+    background-color: var(--studio);
+}
+
+.hone {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+.herobutton {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    background-color: #4D5AE5;
+    cursor: pointer;
+}
+
+.herobutton:hover {background-color:#404bbf;}
+.herobutton:focus {background-color:#404bbf;} 
+
+
+/*Section 2*/
+.headersectwo {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--studio);
+}
+
+.parsectwo {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--add);
+
+}
+
+
+/*Section 3*/
+.thirdsecheader {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--studio);
+}
+
+/*Section 4*/
+
+.fourthsection {
+    background-color: #F4F4FD;
+}
+
+.fourthlist {
+    background-color: #FFFFFF;
+}
+
+
+
+/*Footer*/
+.footerbackg {
+    background-color: #2e2f42;
+}
+
+.pfooter {
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+}
+
+.studiocolorb {
+    color: #F4F4FD;
+}
+
+
+/*Portfolio*/
+
+/*Row 1*/
+
+.portbuttona {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4d5ae5;
+    background-color: #F4F4FD;
+    cursor: pointer;
+}
+
+.portbuttona:hover {color:#FFFFFF;}
+.portbuttona:focus {color:#FFFFFF;}
+.portbuttona:hover {background-color: #404bbf;}
+.portbuttona:focus {background-color: #404bbf;}
+
+
+/*Row 2*/
+.portimage {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.portpar {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.portfooter {
+    background-color: #2e2f42;
+}
+
+.portstudio {
+    color: #f4f4fd;
+}
