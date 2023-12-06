@@ -74,6 +74,13 @@ body {
 .concolor:hover {color:#404bbf}
 .concolor:focus {color:#404bbf}
 
+/*Header*/
+.header {
+    width: 1440px;
+    height: 72px;
+    flex-shrink: 0;
+    border-bottom: #e7e9fc 1px;
+}
 
 /*Sections*/
 
