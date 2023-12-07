@@ -48,6 +48,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0 24px;
 }
 
 .list {
@@ -68,13 +69,22 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display: flex;
+}
+
+.adstyle:first-child {
+    margin-right: 40px;
+}
+
+.adstyle:last-child {
+    margin-right: 0px;
 }
 
 .concolor {color:#434455;}
 .concolor:hover {color:#404bbf}
 .concolor:focus {color:#404bbf}
 
-/*Header*/
+/*Header additional assignment three*/
 .header {
     width: 1440px;
     height: 72px;
@@ -92,13 +102,17 @@ body {
     padding-right: 15px;
 }
 
-.navheader {
+.navulheader {
     display: flex;
     align-items: center;
 }
 
-.menu {
-    display:flex
+.navulheader:first-child {
+    margin-right: 40px;
+}
+
+.navulheader:last-child {
+    margin-right: 0px;
 }
 /*Sections*/
 
