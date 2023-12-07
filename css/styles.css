@@ -79,9 +79,27 @@ body {
     width: 1440px;
     height: 72px;
     flex-shrink: 0;
-    border-bottom: #e7e9fc 1px;
+    border-bottom: 1px #e7e9fc;
+}
+.divheader {
+    display: flex;
 }
 
+.divheaderb {
+    width: 1158px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navheader {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display:flex
+}
 /*Sections*/
 
 /*1st Section*/
