@@ -35,6 +35,7 @@ body {
 
 .link {
     text-decoration: none;
+    display: inline-block;
 }
 
 .studiocolor {
@@ -100,11 +101,11 @@ body {
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-
 }
 
 .navheader {    
     align-items: center;
+    display: flex;
 }
 
 .navulheader:first-child {
@@ -114,6 +115,11 @@ body {
 .navulheader:last-child {
     margin-right: 0px;
 }
+
+.logo {
+    margin-right: 76px;
+}
+
 /*Sections*/
 
 /*1st Section*/
