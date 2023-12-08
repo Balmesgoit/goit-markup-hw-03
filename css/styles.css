@@ -88,11 +88,7 @@ body {
 
 /*Header additional assignment three*/
 .header {
-    width: 1440px;
-    height: 72px;
-    flex-shrink: 0;
-    border-bottom:#e7e9fc;
-    border-bottom: 1px;
+  border-bottom: 1px #e7e9fc;
 }
 
 .displayflex {
@@ -104,6 +100,7 @@ body {
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
+
 }
 
 .navheader {    
