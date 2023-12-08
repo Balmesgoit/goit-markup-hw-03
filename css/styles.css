@@ -30,6 +30,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: var(--web);
+
 }
 
 .link {
@@ -38,6 +39,7 @@ body {
 
 .studiocolor {
     color: #2e2f42;
+    margin-right: 76px;
 }
 
 /*Header Elements*/
@@ -91,19 +93,18 @@ body {
     flex-shrink: 0;
     border-bottom: 1px #e7e9fc;
 }
-.divheader {
+.displayflex {
     display: flex;
 }
 
-.divheaderb {
+.container {
     width: 1158px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
 }
 
-.navulheader {
-    display: flex;
+.navheader {    
     align-items: center;
 }
 
