@@ -138,6 +138,8 @@ navulheader.reversed {
     width: 1440px;
     height: 600px;
     flex-shrink: 0;
+    padding: 188px 0 188px;
+    padding-bottom: 188px;
 }
 
 .hone {
@@ -146,6 +148,7 @@ navulheader.reversed {
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+    max-width: 496px;
 }
 .herobutton {
     font-family: "Roboto", sans-serif;
@@ -156,17 +159,23 @@ navulheader.reversed {
     color: #ffffff;
     background-color: #4D5AE5;
     cursor: pointer;
-    display: inline-flex;
     padding: 16px 32px;
     align-items: flex-start;
-    gap: 10px;
     border-radius: 4px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
 }
 
 .herobutton:hover {background-color:#404bbf;}
 .herobutton:focus {background-color:#404bbf;} 
 
+/*Section 1 assign3*/
+.divsecone {
+
+}
 
 /*Section 2*/
 .sectionone {
