@@ -30,7 +30,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: var(--web);
-
+    margin-right: 76px;
 }
 
 .link {
@@ -52,7 +52,7 @@ body {
     letter-spacing: 0.02em;
     color: #2e2f42;
     padding: 24px 0 24px;
-    margin-right: 76px;
+    
 }
 
 .list {
@@ -112,6 +112,7 @@ body {
 
 .navulheader {
     display: flex;
+    
 }
 
 navulheader.reversed {
@@ -119,7 +120,7 @@ navulheader.reversed {
 }
 
 .navulheader-item {
-    margin-right: 76px;
+    margin-right: 40px;
 }
 
 .navulheader-item:last-child {
