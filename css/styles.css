@@ -89,7 +89,9 @@ body {
 .concolor:focus {color:#404bbf}
 
 /*Header additional assignment three*/
-
+.header {
+    border-bottom: 1px #e7e9fc;
+}
 .displayflex {
     display: flex;
     
@@ -100,7 +102,7 @@ body {
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-    border-bottom: 1px #e7e9fc;
+    
 }
 
 .navheader {    
