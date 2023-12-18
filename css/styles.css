@@ -57,6 +57,7 @@ body {
 
 .list {
     list-style-type:none;
+    display: flex;
 }
 
 .headerstudio:hover {
@@ -341,4 +342,46 @@ navulheader.reversed {
 
 .portstudio {
     color: #f4f4fd;
+}
+
+.portheader {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.portheaddiv {
+    display: flex;
+}
+
+.portcontainer {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
+}
+
+.portnav {
+    align-items: center;
+}
+
+.portlogo {
+    margin-right: 76px;
+}
+
+.portmenu {
+    display: flex;
+}
+
+.portmenu-item {
+    margin-right: 40px;
+}
+
+.portmenu-item:last-child {
+    margin-right: 0;
+}
+
+.portadlist {
+    margin-right: 40px;
+}
+
+.portadlist:last-child {
+    margin-right: 0;
 }
