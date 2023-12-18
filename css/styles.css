@@ -172,11 +172,6 @@ navulheader.reversed {
 .herobutton:hover {background-color:#404bbf;}
 .herobutton:focus {background-color:#404bbf;} 
 
-/*Section 1 assign3*/
-.divsecone {
-
-}
-
 /*Section 2*/
 .sectionone {
     width: 1128px;
@@ -202,19 +197,22 @@ navulheader.reversed {
 
 }
 
-.secone {
+.sectwo {
     display: flex;
+    gap: 24px;
     width: 264px;
     flex-direction: column;
     align-items: flex-start;
-    margin-right: 24px;
-}
-.secone:last-child {
-    margin-right: 0;
+   
+
 }
 
-.secone-item {
-    width: 264px;
+.sectwo-item {
+    flex-basis: calc((100% - 72px) / 4);
+}
+
+.divsectwo {
+    display:none
 }
 
 /*Section 3*/
