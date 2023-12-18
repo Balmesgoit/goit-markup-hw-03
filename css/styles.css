@@ -203,17 +203,15 @@ navulheader.reversed {
     width: 264px;
     flex-direction: row;
     align-items: flex-start;
-   
-
 }
 
+.visually-hidden:not(:focus):not(:active) {
+
+}
 .sectwo-item {
     flex-basis: calc((100% - 72px) / 4);
 }
 
-.divsectwo {
-    display:none
-}
 
 /*Section 3*/
 .thirdsecheader {
@@ -224,7 +222,27 @@ navulheader.reversed {
     text-transform: capitalize;
     color: var(--studio);
     display: none;
+    margin-bottom: 72px;
 }
+
+.secthree {
+    padding-bottom: 120px;
+}
+
+.secthree {
+    display: flex;
+}
+
+.secthree-item {
+    margin-right: 24px;
+    flex-basis: calc((100% - 3 * 16px) / 3)
+}
+
+.secthreelast {
+    margin-right: 0px;
+}
+
+
 
 /*Section 4*/
 
