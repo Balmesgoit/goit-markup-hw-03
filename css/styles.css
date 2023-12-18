@@ -105,6 +105,10 @@ body {
     
 }
 
+.container-img {
+    display: block;
+}
+
 .navheader {    
     align-items: center;
     display: flex;
@@ -275,18 +279,24 @@ navulheader.reversed {
 /*Footer*/
 .footerbackg {
     background-color: #2e2f42;
+    padding: 100px 0 100px;
 }
 
 .pfooter {
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
 
 .studiocolorb {
     color: #F4F4FD;
 }
 
+.link-item {
+    display: inline-block;
+    margin-bottom: 16px;
+}
 
 /*Portfolio*/
 
