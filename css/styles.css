@@ -312,12 +312,63 @@ navulheader.reversed {
     color: #4d5ae5;
     background-color: #F4F4FD;
     cursor: pointer;
+    padding: 12px 24px 12px;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
 }
 
-.portbuttona:hover {color:#FFFFFF;}
-.portbuttona:focus {color:#FFFFFF;}
+.portbuttona:hover {
+    color:#FFFFFF;
+    border: 1px solid transparent;}
+.portbuttona:focus {
+    color:#FFFFFF;
+    border: 1px solid transparent;}
 .portbuttona:hover {background-color: #404bbf;}
 .portbuttona:focus {background-color: #404bbf;}
+
+/*Portfolio Header Block Elements*/
+.portheader {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.portheaddiv {
+    display: flex;
+}
+
+.portcontainer {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
+}
+
+.portnav {
+    align-items: center;
+    display: flex;
+}
+
+.portlogo {
+    margin-right: 76px;
+}
+
+.portmenu {
+    display: flex;
+}
+
+.portmenu-item {
+    margin-right: 40px;
+}
+
+.portmenu-item:last-child {
+    margin-right: 0;
+}
+
+.portadlist {
+    margin-right: 40px;
+}
+
+.portadlist:last-child {
+    margin-right: 0;
+}
 
 
 /*Row 2*/
@@ -344,44 +395,31 @@ navulheader.reversed {
     color: #f4f4fd;
 }
 
-.portheader {
-    border-bottom: 1px solid #e7e9fc;
+
+/*Row 2 Block Elements*/
+
+.portsection {
+    padding: 96px 0 120px 0
 }
 
-.portheaddiv {
+.portfolioheader {
+    display: none
+}
+
+.portlistmenu {
     display: flex;
+    justify-content: center;
+    margin-bottom: 72px;
 }
 
-.portcontainer {
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px 0 15px;
+.portlistmenu-item {
+    margin-right: 24px;
 }
 
-.portnav {
-    align-items: center;
-}
-
-.portlogo {
-    margin-right: 76px;
-}
-
-.portmenu {
-    display: flex;
-}
-
-.portmenu-item {
-    margin-right: 40px;
-}
-
-.portmenu-item:last-child {
+.portlistmenu-item:last-child {
     margin-right: 0;
 }
 
-.portadlist {
-    margin-right: 40px;
-}
-
-.portadlist:last-child {
-    margin-right: 0;
+.portlistbutton {
+    padding: 12px 24px 12px;
 }
