@@ -435,12 +435,19 @@ navulheader.reversed {
 
 .portlistpic-item {
     margin-right: 24px;
+    margin-bottom: 48px;
     width: ((100% - 48px) / 3);
-    row-gap: 48px;
-    column-gap: 24px;
+    
 }
 
+.portlistpic-item:nth-child(3) {
+    margin-right: 0;
+}
 
+.portlistpic-item:nth-last-child(7) {
+    margin-bottom: 0
+    ;
+}
 
 .portdivtwo {
     padding: 32px 16px;
