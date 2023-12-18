@@ -240,6 +240,7 @@ navulheader.reversed {
 
 .secthreelast {
     margin-right: 0px;
+    gap: 24px;
 }
 
 
@@ -248,10 +249,25 @@ navulheader.reversed {
 
 .fourthsection {
     background-color: #F4F4FD;
+    padding: 120px 0 120px;
 }
 
 .fourthlist {
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.secfourlistdiv {
+    padding: 32px 0;
+}
+
+.secfourlisthead {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.secfourpar {
+    text-align: center;
 }
 
 
