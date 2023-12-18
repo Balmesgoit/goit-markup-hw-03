@@ -433,10 +433,11 @@ navulheader.reversed {
 
 }
 
-.portlistpic-item:not(::third-child) {
+.portlistpic-item {
     margin-right: 24px;
     width: ((100% - 48px) / 3);
     row-gap: 48px;
+    column-gap: 24px;
 }
 
 
