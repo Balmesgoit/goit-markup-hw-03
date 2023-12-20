@@ -239,12 +239,11 @@ navulheader.reversed {
 }
 
 .secthree-item {
-    margin-right: 24px;
     flex-basis: calc((100% - 3 * 16px) / 3)
 }
 
-.secthree-item:last-child {
-    margin-right: 0;
+.secthree-item:not(:last-child) {
+    margin-right: 24px;
 
 }
 
