@@ -16,6 +16,10 @@ body {
     background-color: var(--bodybc);
 }
 
+img {
+    display: block;
+}
+
 /*HEADER*/
 .liststyle {
     list-style: none;
@@ -211,7 +215,7 @@ navulheader.reversed {
 }
 
 .sectwo-item {
-    width: calc((100% - 3 * 24px);
+    flex-basis: calc((100%-3*24px)/4);
 }
 
 .hide {
@@ -230,6 +234,10 @@ navulheader.reversed {
     margin-bottom: 72px;
 }
 
+.thirdsecheader. {
+    display:none
+}
+
 .secthree {
     padding-bottom: 120px;
 }
@@ -244,8 +252,8 @@ navulheader.reversed {
 
 .secthree-item:not(:last-child) {
     margin-right: 24px;
-
 }
+
 
 /*Section 4*/
 
