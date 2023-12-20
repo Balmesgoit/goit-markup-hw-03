@@ -91,7 +91,7 @@ body {
 
 /*Header additional assignment three*/
 .header {
-    border-bottom: 1px #e7e9fc;
+    border-bottom: 1px solid #e7e9fc;
 }
 .displayflex {
     display: flex;
@@ -210,13 +210,13 @@ navulheader.reversed {
     align-items: flex-start;
 }
 
-.visually-hidden:not(:focus):not(:active) {
-
-}
 .sectwo-item {
-    flex-basis: calc((100% - 72px) / 4);
+    width: calc((100% - 3 * 24px);
 }
 
+.hide {
+    display: none
+}
 
 /*Section 3*/
 .thirdsecheader {
@@ -243,12 +243,10 @@ navulheader.reversed {
     flex-basis: calc((100% - 3 * 16px) / 3)
 }
 
-.secthreelast {
-    margin-right: 0px;
-    gap: 24px;
+.secthree-item:last-child {
+    margin-right: 0;
+
 }
-
-
 
 /*Section 4*/
 
