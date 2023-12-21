@@ -324,12 +324,15 @@ navulheader.reversed {
 
 .portbuttona:hover {
     color:#FFFFFF;
-    border: 1px solid transparent;}
+    background-color: #404bbf;
+    border: 1px solid transparent;
+}
+
 .portbuttona:focus {
     color:#FFFFFF;
-    border: 1px solid transparent;}
-.portbuttona:hover {background-color: #404bbf;}
-.portbuttona:focus {background-color: #404bbf;}
+    border: 1px solid transparent;
+    background-color: #404bbf;
+}
 
 /*Portfolio Header Block Elements*/
 .portheader {
@@ -405,30 +408,29 @@ navulheader.reversed {
 /*Row 1 Block Elements*/
 
 .portsection {
-    padding: 96px 0 120px 0
+    padding-top: 96px 0 120px 0
 }
 
 .portfolioheader {
-    display: none
+    display: none;
 }
 
 .portlistmenu {
     display: flex;
     justify-content: center;
+    margin-right: 24px;
     margin-bottom: 72px;
 }
 
-.portlistmenu-item {
-    margin-right: 24px;
+.portlistmenu:last-child {
+    margin-right: 0;
 }
+
 
 .portlistmenu-item:last-child {
     margin-right: 0;
 }
 
-.portlistbutton {
-    padding: 12px 24px 12px;
-}
 
 /*Row 2 Block Elements*/
 
@@ -442,16 +444,14 @@ navulheader.reversed {
     margin-right: 24px;
     margin-bottom: 48px;
     width: ((100% - 48px) / 3);
-    
 }
 
-.portlistpic-item:nth-child(3) {
+.portlistpic-item:nth-child(3n+3) {
     margin-right: 0;
 }
 
-.portlistpic-item:nth-last-child(7) {
-    margin-bottom: 0
-    ;
+.portlistpic-item:nth-last-child(-n+3) {
+    margin-bottom: 0;
 }
 
 .portdivtwo {
