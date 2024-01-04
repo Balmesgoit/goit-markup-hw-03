@@ -214,7 +214,7 @@ navulheader.reversed {
 }
 
 .sectwo-item {
-    flex-basis: calc((100% - 3 * 24px) / 4)
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .visually-hidden {
