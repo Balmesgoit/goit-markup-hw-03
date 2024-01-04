@@ -209,10 +209,8 @@ navulheader.reversed {
 .sectwo {
     display: flex;
     gap: 24px;
-    width: 264px;
     flex-direction: row;
     align-items: flex-start;
-
 }
 
 .sectwoitem {
