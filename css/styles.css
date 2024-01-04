@@ -213,7 +213,7 @@ navulheader.reversed {
     align-items: flex-start;
 }
 
-.sectwoitem {
+.sectwo-item {
     flex-basis: calc((100% - 3 * 24px) / 4)
 }
 
