@@ -216,7 +216,7 @@ navulheader.reversed {
 }
 
 .sectwo-item {
-    flex-basis: calc((100% - 72px) / 4)
+    width: calc((100% - 3 * 24px) / 4)
 }
 
 .visually-hidden {
@@ -231,7 +231,7 @@ navulheader.reversed {
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
-  
+
 /*Section 3*/
 .thirdsecheader {
     font-size: 36px;
