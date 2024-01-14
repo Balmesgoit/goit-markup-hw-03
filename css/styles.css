@@ -183,10 +183,30 @@ navulheader.reversed {
 
 /*Section 2*/
 .sectionone {
-    width: 1128px;
-    height: 104px;
-    flex-shrink: 0;
     padding: 120px 0 120px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+.sectwo {
+    display: flex;
+    gap: 24px;
+}
+
+
+.sectwo-item {
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .headersectwo {
@@ -206,29 +226,6 @@ navulheader.reversed {
 
 }
 
-.sectwo {
-    display: flex;
-    gap: 24px;
-    flex-direction: row;
-    align-items: flex-start;
-}
-
-.sectwo-item {
-    width: calc((100% - 3 * 24px) / 4);
-}
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  }
 
 /*Section 3*/
 .thirdsecheader {
@@ -238,20 +235,12 @@ navulheader.reversed {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--studio);
-    display: none;
     margin-bottom: 72px;
-}
-
-.thirdsecheader. {
-    display:none
-}
-
-.secthree {
-    padding-bottom: 120px;
 }
 
 .secthree {
     display: flex;
+    padding-bottom: 120px;
 }
 
 .secthree-item {
