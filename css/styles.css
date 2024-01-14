@@ -23,11 +23,13 @@ img {
 /*HEADER*/
 /*Logo*/
 .header {
-    border-bottom: 1px solid #e7e9fc;
+    border-bottom: 1px solid;
+    padding: 24px 0;
 }
 
 .displayflex {
     display: flex;
+    justify-content: space-between;
 }
 
 .container {
@@ -54,7 +56,6 @@ img {
 
 .link {
     text-decoration: none;
-    display: inline-block;
 }
 
 .studiocolor {
@@ -68,15 +69,9 @@ img {
 }
 
 .navulheader {
-    display: flex;
-}
-
-.navulheader-item {
-    margin-right: 40px;
-}
-
-.navulheader-item:last-child {
-    margin-right: 0;
+    display: inline-flex;
+    list-style: none;
+    gap: 40px;
 }
 
 .headerstudio {
@@ -102,17 +97,8 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    display: flex;
-    padding: 24px 0 24px;
 }
 
-.adstyle:first-child {
-    margin-right: 40px;
-}
-
-.adstyle:last-child {
-    margin-right: 0px;
-}
 
 
 .concolor {color:#434455;}
