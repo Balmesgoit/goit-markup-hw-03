@@ -97,9 +97,6 @@ img {
 .headerstudio:focus {
         color: #404bbf;
 }
-navulheader.reversed {
-    flex-direction: row-reverse;
-}
 
 /*Address*/
 .adstyle {
@@ -133,7 +130,7 @@ navulheader.reversed {
     width: 1440px;
     height: 600px;
     flex-shrink: 0;
-    padding: 188px 0 188px;
+    padding-top:188px;
     padding-bottom: 188px;
 }
 
@@ -191,7 +188,7 @@ navulheader.reversed {
 }
 
 
-.sectwo-item {
+.item {
     flex-basis: calc((100% - 72px) / 4)
 }
 
