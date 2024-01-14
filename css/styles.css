@@ -39,6 +39,7 @@ img {
 
 .navheader {    
     display: inline-flex;
+    align-items: center;
     gap: 76px
 }
 
@@ -96,6 +97,9 @@ img {
 .headerstudio:focus {
         color: #404bbf;
 }
+navulheader.reversed {
+    flex-direction: row-reverse;
+}
 
 /*Address*/
 .adstyle {
@@ -112,10 +116,6 @@ img {
 
 .adstyle:last-child {
     margin-right: 0px;
-}
-
-navulheader.reversed {
-    flex-direction: row-reverse;
 }
 
 
