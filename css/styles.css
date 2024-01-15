@@ -113,8 +113,6 @@ img {
 /*Hero*/
 .hero {
     background-color: var(--studio);
-    width: 1440px;
-    height: 600px;
     flex-shrink: 0;
     padding-top:188px;
     padding-bottom: 188px;
