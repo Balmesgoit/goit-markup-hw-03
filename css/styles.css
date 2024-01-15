@@ -315,22 +315,17 @@ img {
 
 .portnav {
     align-items: center;
-    display: flex;
 }
 
 .portlogo {
     margin-right: 76px;
 }
 
-.portmenu {
-    display: flex;
-}
-
-.portmenu-item {
+.portitem {
     margin-right: 40px;
 }
 
-.portmenu-item:last-child {
+.portitem:last-child {
     margin-right: 0;
 }
 
