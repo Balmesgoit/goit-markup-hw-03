@@ -169,6 +169,8 @@ img {
 .sectwo {
     display: flex;
     gap: 24px;
+    list-style: none;
+    padding: 0;
 }
 
 
