@@ -383,12 +383,13 @@ img {
 . 
 
 /*Row 2 Block Elements*/
-
-
-.porttwolist {
+.plisttwo {
     flex-wrap: wrap;
     margin-right: 24px;
     margin-bottom: 48px;
+}
+
+.porttwolist {
     width: ((100% - 48px) / 3);
 }
 
