@@ -386,12 +386,12 @@ img {
 
 .portlistpic {
     display: flex;
-    flex-wrap: wrap;
-    margin-right: 24px;
-    margin-bottom: 48px;
 }
 
 .portlistpic-item {
+    flex-wrap: wrap;
+    margin-right: 24px;
+    margin-bottom: 48px;
     width: ((100% - 48px) / 3);
 }
 
