@@ -384,11 +384,8 @@ img {
 
 /*Row 2 Block Elements*/
 
-.portlistpic {
-    display: flex;
-}
 
-.portlistpic-item {
+.porttwolist {
     flex-wrap: wrap;
     margin-right: 24px;
     margin-bottom: 48px;
