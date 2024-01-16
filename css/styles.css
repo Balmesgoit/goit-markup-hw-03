@@ -278,6 +278,12 @@ img {
 
 /*Row 1*/
 
+.portlistmenu {
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
+
 .portbuttona {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -374,17 +380,13 @@ img {
     display: none;
 }
 
-.portlistmenu {
-    justify-content: center;
-    gap: 24px;
-    margin-bottom: 72px;
-}
-
 /*Row 2 Block Elements*/
 
 .plisttwo {
     display: flex;
+    list-style-type: none;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 24px;
     row-gap: 48px;
 }
