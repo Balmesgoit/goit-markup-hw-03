@@ -390,7 +390,8 @@ img {
 }
 
 .porttwolist {
-    width: calc((100% - 48px) / 3);
+    flexbasis: calc((100% - 48px) / 3);
+    
 }
 
 .portlistpic-item:nth-child(3n+3) {
